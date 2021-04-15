@@ -1,8 +1,4 @@
-import glob2
-import shutil
-import os
-import time
-import pyfiglet
+import glob2,shutil,os,time,pyfiglet
 
 result = pyfiglet.figlet_format("File Sorter")
 print(result)
