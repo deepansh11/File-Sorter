@@ -8,7 +8,7 @@ result = pyfiglet.figlet_format("File Sorter")
 print(result)
 
 list = ["pdf","docx","pptx","xlsx","jpg","png","jpeg","exe","mp4","txt"]
-print("\n[+] Enter the path you want file sorter to work on: ")
+print("\n[+] Enter the absolute path you want file sorter to work on: ")
 path_name = input()
 
 def store_files(name,number):
