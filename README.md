@@ -1,5 +1,5 @@
 # File-Sorter
-<p>A simple file sorting script that allows you to keep your "Downloads" folder or whichever folder you choose clean, pre-defined extensions:- </p>
+<p>A simple file sorting script that allows you to keep your "Downloads" folder or whichever folder you choose clean, pre-defined extensions include but not limited to:- </p>
 <ul>
   <li>pdf</li>
   <li>png</li>
