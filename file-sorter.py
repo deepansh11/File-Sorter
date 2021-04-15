@@ -4,8 +4,7 @@ result = pyfiglet.figlet_format("File Sorter")
 print(result)
 
 list = ["pdf","docx","pptx","xlsx","jpg","png","jpeg","exe","mp4","txt"]
-print("\n[+] Enter the absolute path you want file sorter to work on: ")
-path_name = input()
+path_name = input("[+] Enter the absolute path you want file sorter to work on: ")
 
 def store_files(name,number):
     data = []
@@ -27,7 +26,6 @@ try:
                 else:
                     print(f"All files are already arranged in {list[i].upper()} folder")
 
-
             else:
                 path = os.path.join(path_name,list[i].upper())
                 print(f"[+] Folder {list[i].upper()} does not exists, So I'm creating one on your behalf...")
@@ -36,7 +34,7 @@ try:
                 for j in child:
                     shutil.move(j,path_name+'/' + list[i].upper())
                 print(f"[+] Folder created and files moved to {list[i].upper()} folder")
-        else:
-            print("[+] The path you mentioned does not exists, please enter the path again carefully")
+    else:
+        print("[+] The path you mentioned does not exists, please enter the path again carefully")
 except error as e:
     print(e)
