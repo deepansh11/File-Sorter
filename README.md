@@ -11,3 +11,8 @@
   <li>docx</li>
   <li>xlsx</li>
 </ul>
+
+<br>
+
+Installation
+<p> pip install -r requirements.txt</p>
