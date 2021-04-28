@@ -14,5 +14,5 @@
 
 <br>
 
-Installation
-<p> pip install -r requirements.txt</p>
+# Installation
+`pip install -r requirements.txt`
