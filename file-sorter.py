@@ -34,7 +34,7 @@ try:
                 for j in child:
                     shutil.move(j,path_name+'/' + list[i].upper())
                 print(f"[+] Folder created and files moved to {list[i].upper()} folder")
-    else:
-        print("[+] The path you mentioned does not exists, please enter the path again carefully")
+        else:
+            print("[+] The path you mentioned does not exists, please enter the path again carefully")
 except error as e:
     print(e)
